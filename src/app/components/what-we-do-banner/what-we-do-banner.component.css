@@ -1,0 +1,21 @@
+.section{
+    background-color: coral;
+    height: 65vh;
+}
+.card{
+    height: 500px;
+    background-color: rosybrown;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.whatWeDo h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.whatWeDo p{
+    font-size: 20px;
+    word-break: break-all;
+}
+.card image{
+    
+}

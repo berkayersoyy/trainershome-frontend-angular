@@ -1,0 +1,19 @@
+.section{
+    background-color: royalblue;
+
+}
+.banner{
+    padding-top: 10%;
+}
+.banner h1{
+    font-size: 40px;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner button{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
