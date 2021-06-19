@@ -1,0 +1,39 @@
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 90px;
+  transition: 0.2s ease;
+}
+.stable{
+  height: 70px !important;
+  transition: 0.2s ease;
+}
+.navbar-toggler{
+  border-color: black !important;
+}
+li a{
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Montserrat',sans-serif;
+}
+.bg-light{
+  background-color: white !important;
+}
+.nav-item{
+  padding: 12px 15px;
+  text-transform: uppercase;
+}
+.navbar-brand{
+  color: black;
+}
+@media screen and (max-device-width:991px) {
+  .sticky{
+    height: auto;
+  }
+  .stable{
+    height: auto;
+  }
+}

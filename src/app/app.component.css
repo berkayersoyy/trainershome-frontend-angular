@@ -1,0 +1,22 @@
+*{
+    font-family: montserrat;
+}
+h1{
+    font-family: oswald-bold;
+}
+button{
+    font-family: 'Montserrat',sans-serif;
+}
+@font-face{
+    font-family: oswald;
+    src: url(src/assets/fonts/Oswald-Regular.ttf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: oswald-bold;
+    src: url(src/assets/fonts/Oswald-Bold.ttf);
+}
+@font-face{
+    font-family: montserrat;
+    src: url(src/assets/fonts/Montserrat-Regular.ttf);
+}

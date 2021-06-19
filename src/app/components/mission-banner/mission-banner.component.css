@@ -1,0 +1,47 @@
+.section{
+    background-color: #222;
+}
+.section h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family: oswald-bold;
+}
+.section p{
+    text-align: center;
+    color: white;
+    margin-bottom: 3%;
+    line-height: 28px;
+    font-size: 16px;
+}
+.btn{
+    position: relative;
+    margin-bottom: 6%;
+    color: black;
+    text-transform: uppercase;
+    background-color: rgb(28,176,230);
+    height: 45px;
+    font-family: montserrat;
+    font-size: 12px;
+    border-radius: 40px;   
+    padding: 14px 30px;
+    box-shadow: none;
+}
+.buttonWrapper{
+    text-align: center;
+}
+.btn:hover{
+    border-color: rgb(28,176,230);
+    background: transparent;
+    color: rgb(28,176,230);
+    transition: 0.3s ease;
+}
+@media screen and (max-device-width:767px){
+    .section h1{
+        font-size: 20px !important;
+    }
+}
+

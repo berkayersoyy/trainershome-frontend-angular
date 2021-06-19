@@ -1,19 +1,41 @@
-.section{
-    background-color: royalblue;
+.section {
+  background-color: royalblue;
+}
+.banner {
+  padding-top: 10%;
+}
+.banner h1 {
+  font-size: 350%;
+  margin-bottom: 5%;
+  margin-top: 23%;
+  font-weight: bolder;
+  color: rgb(28, 176, 230);
+  line-height: 55px !important;
+  font-family: oswald-bold;
+}
+.banner p {
+  line-height: 28px;
+  font-size: 20px;
+  color: white;
+  font-family: montserrat;
+}
+.btn {
+  margin-top: 5%;
+  margin-bottom: 28%;
+  box-shadow: none;
+  text-transform: uppercase;
+  color: black;
+  background-color: rgb(28, 176, 230);
+  height: 45px;
+  font-size: 12px;
+  border-radius: 40px;
+  padding: 14px 30px;
+  font-family: montserrat;
+}
 
-}
-.banner{
-    padding-top: 10%;
-}
-.banner h1{
-    font-size: 40px;
-    margin-bottom: 5%;
-    margin-top: 8%;
-}
-.banner p{
-    font-size: 20px;
-}
-.banner button{
-    margin-top: 5%;
-    margin-bottom: 20%;
+.btn:hover {
+  border-color: rgb(28, 176, 230);
+  background: transparent;
+  color: rgb(28, 176, 230);
+  transition: 0.3s ease;
 }

@@ -1,0 +1,22 @@
+.section {
+    background-color: royalblue;
+  }
+  .banner {
+    padding-top: 10%;
+  }
+  .banner h1 {
+    font-size: 350%;
+    margin-bottom: 5%;
+    margin-top: 23%;
+    font-weight: bolder;
+    color: rgb(28, 176, 230);
+    line-height: 55px !important;
+    font-family: oswald-bold;
+  }
+  .banner p {
+    line-height: 28px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 23%;
+    font-family: montserrat;
+  }

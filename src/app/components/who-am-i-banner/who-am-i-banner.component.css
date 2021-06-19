@@ -1,0 +1,18 @@
+.banner h1 {
+    font-size: 350%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    color: rgb(28, 176, 230);
+    line-height: 45px !important;
+    font-family: oswald-bold;
+  }
+  .banner p {
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+}
+.whitespace{
+    height: 50px;
+}

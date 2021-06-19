@@ -1,0 +1,41 @@
+.section {
+  background-color: darkolivegreen;
+}
+.banner h1 {
+  font-size: 350%;
+  margin-bottom: 5%;
+  padding-top: 16%;
+  font-weight: bolder;
+  color: rgb(28, 176, 230);
+  line-height: 55px !important;
+  font-family: oswald-bold;
+}
+.banner p {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  word-wrap: break-word;
+}
+.banner p:last-child{
+    margin-bottom: 16%;
+}
+.paragraph{
+    font-size: 16px;
+    color: white;
+    line-height: 28px;
+}
+ul {
+    list-style: none;
+  }
+  
+  li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+  }
+  
+  li::before {
+    content: "• ";
+    color: darkgray; /* or whatever color you prefer */
+    padding-right: 1em;
+  }

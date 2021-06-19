@@ -1,0 +1,21 @@
+.section{
+    background-color: darkolivegreen;
+}
+.banner {
+    padding-top: 10%;
+  }
+.banner h1 {
+    font-size: 550%;
+    margin-bottom: 10%;
+    margin-top: 23%;
+    font-weight: bolder;
+    color: rgb(28, 176, 230);
+    line-height: 55px !important;
+    font-family: oswald-bold;
+  }
+  .banner p {
+    line-height: 28px;
+    font-size: 20px !important;
+    color: white;
+    margin-bottom: 23%;
+  }
