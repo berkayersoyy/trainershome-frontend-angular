@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { WhatWeDoBannerComponent } from './components/what-we-do-banner/what-we-do-banner.component';
 import { MissionBannerComponent } from './components/mission-banner/mission-banner.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -26,12 +25,16 @@ import { QuestionsAnsweredComponent } from './components/questions-answered/ques
 import { OnlineTrainingComponent } from './components/online-training/online-training.component';
 import { OnlineTrainingBannerComponent } from './components/online-training-banner/online-training-banner.component';
 import { OnlineTrainingBodyComponent } from './components/online-training-body/online-training-body.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { PricingBodyComponent } from './components/pricing-body/pricing-body.component';
+import { HomeBannerComponent } from './components/home-banner/home-banner.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PricingBannerComponent } from './components/pricing-banner/pricing-banner.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    BannerComponent,
     WhatWeDoBannerComponent,
     MissionBannerComponent,
     FooterComponent,
@@ -50,10 +53,16 @@ import { OnlineTrainingBodyComponent } from './components/online-training-body/o
     OnlineTrainingComponent,
     OnlineTrainingBannerComponent,
     OnlineTrainingBodyComponent,
+    PricingComponent,
+    PricingBodyComponent,
+    HomeBannerComponent,
+    PricingBannerComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     ToastrModule.forRoot({positionClass:"toast-bottom-right"}),
     BrowserAnimationsModule
   ],

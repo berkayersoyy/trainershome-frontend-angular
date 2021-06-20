@@ -19,6 +19,10 @@ li a{
   color: black;
   font-family: 'Montserrat',sans-serif;
 }
+li a:hover{
+  color: rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease;
+}
 .bg-light{
   background-color: white !important;
 }
