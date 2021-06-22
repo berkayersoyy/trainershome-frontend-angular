@@ -30,6 +30,8 @@ import { PricingBodyComponent } from './components/pricing-body/pricing-body.com
 import { HomeBannerComponent } from './components/home-banner/home-banner.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PricingBannerComponent } from './components/pricing-banner/pricing-banner.component';
+import { LoginComponent } from './components/login/login.component';
+import { LoginBodyComponent } from './components/login-body/login-body.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,6 +59,8 @@ import { PricingBannerComponent } from './components/pricing-banner/pricing-bann
     PricingBodyComponent,
     HomeBannerComponent,
     PricingBannerComponent,
+    LoginComponent,
+    LoginBodyComponent,
   
   ],
   imports: [

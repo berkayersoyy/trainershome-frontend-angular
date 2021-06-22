@@ -11,16 +11,16 @@
   transition: 0.2s ease;
 }
 .navbar-toggler{
-  border-color: black !important;
+  border: none !important;
 }
 li a{
   font-size: 12px;
   font-weight: 700;
-  color: black;
+  color: black !important;
   font-family: 'Montserrat',sans-serif;
 }
 li a:hover{
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6) !important;
   transition: 0.3s ease;
 }
 .bg-light{
