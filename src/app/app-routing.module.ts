@@ -5,8 +5,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { OnlineTrainingComponent } from './components/online-training/online-training.component';
+import { PanelComponent } from './components/panel/panel.component';
 import { PersonalTrainingComponent } from './components/personal-training/personal-training.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { LoginGuard } from './guards/login.guard';
 
 const routes: Routes = [
   {path:"",component:HomeComponent},
@@ -15,7 +17,8 @@ const routes: Routes = [
   {path:"personaltraining",component:PersonalTrainingComponent},
   {path:"onlinetraining",component:OnlineTrainingComponent},
   {path:"pricing",component:PricingComponent},
-  {path:"login",component:LoginComponent}
+  {path:"login",component:LoginComponent},
+  {path:"panel",component:PanelComponent,canActivate:[LoginGuard]}
 ];
 
 @NgModule({

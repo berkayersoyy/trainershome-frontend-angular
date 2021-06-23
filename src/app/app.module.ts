@@ -32,6 +32,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PricingBannerComponent } from './components/pricing-banner/pricing-banner.component';
 import { LoginComponent } from './components/login/login.component';
 import { LoginBodyComponent } from './components/login-body/login-body.component';
+import { PanelComponent } from './components/panel/panel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,6 +62,7 @@ import { LoginBodyComponent } from './components/login-body/login-body.component
     PricingBannerComponent,
     LoginComponent,
     LoginBodyComponent,
+    PanelComponent,
   
   ],
   imports: [

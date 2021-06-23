@@ -13,12 +13,13 @@
 }
 .box-wrapper h1{
     text-align: center;
-    margin: 8%;
+    margin: 10%;
+    margin-top: 30%;
     font-size: 40px;
     font-family: oswald-bold;
 }
 .input-group{
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
 }
 .form-control {
@@ -61,9 +62,18 @@
     border-radius: 40px;
     box-shadow: none;
     padding: 14px 30px;
+    margin-bottom: 3%;
+    margin-top: 5%;
   }
   .center{
       text-align: center;
+  }
+  .reset-password{
+      text-align: center;
+      font-family: montserrat;
+      font-size: 12px;
+      cursor: pointer;
+      font-style: italic;
   }
 @media screen and (max-device-width:767px){
     .box-wrapper{
