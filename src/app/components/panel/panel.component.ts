@@ -10,6 +10,12 @@ export class PanelComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.destroyNavbar();
+  }
+
+  destroyNavbar(){
+    var navbar = document.getElementsByTagName('nav')[0];
+    navbar.style.setProperty("display","none");
   }
 
 }

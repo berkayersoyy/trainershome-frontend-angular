@@ -1,0 +1,28 @@
+.panel-menu {
+      height: 100px;
+      background: white;
+    }
+    .brand h1 {
+      font-family: oswald-bold;
+    }
+    .brand{
+      padding-left: 100px;
+    }
+    .menu p {
+      float: right;
+      padding-right: 50px;
+      font-family: montserrat;
+      font-size: medium;
+    }
+    .panel-body {
+      background: rgb(0, 0, 0, 0.1);
+      padding:3%;
+    }
+    .card{
+        height: 350px;
+        background: white;
+        border-radius: 15px;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    

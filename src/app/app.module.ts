@@ -33,6 +33,10 @@ import { PricingBannerComponent } from './components/pricing-banner/pricing-bann
 import { LoginComponent } from './components/login/login.component';
 import { LoginBodyComponent } from './components/login-body/login-body.component';
 import { PanelComponent } from './components/panel/panel.component';
+import { AdminPanelComponent } from './components/admin-panel/admin-panel.component';
+import { AdminPanelHomeComponent } from './components/admin-panel-home/admin-panel-home.component';
+import { AdminPanelSidebarComponent } from './components/admin-panel-sidebar/admin-panel-sidebar.component';
+import { AdminPanelVideoComponent } from './components/admin-panel-video/admin-panel-video.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +67,10 @@ import { PanelComponent } from './components/panel/panel.component';
     LoginComponent,
     LoginBodyComponent,
     PanelComponent,
+    AdminPanelComponent,
+    AdminPanelHomeComponent,
+    AdminPanelSidebarComponent,
+    AdminPanelVideoComponent,
   
   ],
   imports: [
