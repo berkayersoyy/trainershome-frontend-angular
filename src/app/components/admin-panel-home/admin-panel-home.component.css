@@ -6,13 +6,15 @@
       font-family: oswald-bold;
     }
     .brand{
-      padding-left: 100px;
+      padding-left: 80px;
     }
-    .menu p {
+    .menu img{
       float: right;
-      padding-right: 50px;
+      padding-right: 80px;
       font-family: montserrat;
-      font-size: medium;
+      height: 24px;
+      width: auto;
+      cursor: pointer;
     }
     .panel-body {
       background: rgb(0, 0, 0, 0.1);
@@ -24,5 +26,13 @@
         border-radius: 15px;
         margin-bottom: 3%;
         text-align: center;
+    }
+    @media screen and (max-device-width:767px) {
+      .brand{
+        display: none;
+      }
+      .menu img{
+        padding-right: 30px;
+      }
     }
     

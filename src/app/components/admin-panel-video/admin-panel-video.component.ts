@@ -11,5 +11,4 @@ export class AdminPanelVideoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

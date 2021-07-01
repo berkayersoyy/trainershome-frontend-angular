@@ -37,6 +37,8 @@ import { AdminPanelComponent } from './components/admin-panel/admin-panel.compon
 import { AdminPanelHomeComponent } from './components/admin-panel-home/admin-panel-home.component';
 import { AdminPanelSidebarComponent } from './components/admin-panel-sidebar/admin-panel-sidebar.component';
 import { AdminPanelVideoComponent } from './components/admin-panel-video/admin-panel-video.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { AdminPanelVideoAddVideoModalComponent } from './components/admin-panel-video-add-video-modal/admin-panel-video-add-video-modal.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -71,12 +73,14 @@ import { AdminPanelVideoComponent } from './components/admin-panel-video/admin-p
     AdminPanelHomeComponent,
     AdminPanelSidebarComponent,
     AdminPanelVideoComponent,
+    AdminPanelVideoAddVideoModalComponent,
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    NgxPaginationModule,
     ToastrModule.forRoot({positionClass:"toast-bottom-right"}),
     BrowserAnimationsModule
   ],

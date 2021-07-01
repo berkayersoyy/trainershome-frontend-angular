@@ -1,3 +1,52 @@
-.video-body{
-    height: 100vh;
+.video-body {
+  padding: 3%;
+  padding-bottom: 120px;
+}
+.card {
+  height: 320px;
+  background: white;
+  border-radius: 15px;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.card h1 {
+  margin-top: 5%;
+}
+.video-box {
+  height: 120px;
+  margin: 10px;
+  margin-top: 10px;
+  background-color: darkolivegreen;
+}
+.panel-menu {
+  height: 100px;
+  background: white;
+}
+.brand h1 {
+  font-family: oswald-bold;
+}
+.brand {
+  padding-left: 100px;
+}
+.menu img {
+  float: right;
+  margin-right: 50px;
+  font-family: montserrat;
+  font-size: medium;
+  cursor: pointer;
+}
+.more img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+@media (max-device-width: 1300px) and (min-device-width: 768px) {
+  .card h1{
+    font-size: 18px;
+    margin-top: 25%;
+  }
+  .more img{
+    left: 5px;
+    top: 5px;
+  }
 }
