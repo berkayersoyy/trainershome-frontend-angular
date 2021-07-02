@@ -1,6 +1,6 @@
 .sidebar{
     width: 90px;
-    background-color: #e0e0e0;
+    background-color: white;
     height: 80vh;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -16,14 +16,13 @@
 .top li:first-child{
     margin-top: 100px;
 }
+.top li:nth-child(4){
+    padding-bottom: 100%;
+}
 .sidebar ul li{
     margin-bottom: 40px;
     display: block;
     text-align: center;
-}
-.bottom{
-    position: absolute;
-    bottom: 20px;
 }
 .icon{
     cursor: pointer;
