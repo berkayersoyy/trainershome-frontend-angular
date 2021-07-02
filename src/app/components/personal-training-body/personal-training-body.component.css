@@ -97,3 +97,6 @@
     color: black; /* or whatever color you prefer */
     padding-right: 1em;
   }
+  textarea{
+    resize: none;
+  }

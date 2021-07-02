@@ -39,6 +39,7 @@ import { AdminPanelSidebarComponent } from './components/admin-panel-sidebar/adm
 import { AdminPanelVideoComponent } from './components/admin-panel-video/admin-panel-video.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { AdminPanelVideoAddVideoModalComponent } from './components/admin-panel-video-add-video-modal/admin-panel-video-add-video-modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -82,7 +83,8 @@ import { AdminPanelVideoAddVideoModalComponent } from './components/admin-panel-
     FontAwesomeModule,
     NgxPaginationModule,
     ToastrModule.forRoot({positionClass:"toast-bottom-right"}),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
