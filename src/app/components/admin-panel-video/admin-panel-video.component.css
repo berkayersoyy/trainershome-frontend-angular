@@ -39,6 +39,10 @@
   position: absolute;
   top: 10px;
   left: 10px;
+  cursor: pointer;
+}
+.dropdown-toggle::after{
+  display: none;
 }
 @media (max-device-width: 1300px) and (min-device-width: 768px) {
   .card h1{

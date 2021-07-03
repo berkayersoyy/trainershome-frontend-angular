@@ -10,7 +10,28 @@
   <div class="row">
     <div class="col-md-3">
       <div class="card">
-        <span class="more"><img src="../../../assets/images/more.png" /></span>
+        <div ngbDropdown class="dropdown">
+          <a
+            ngbDropdownToggle
+            class="nav-link dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+          <span class="more"><img src="../../../assets/images/more.png" /></span>
+          </a>
+          <div
+            ngbDropdownMenu
+            class="dropdown-menu"
+            aria-labelledby="#navbarDropdown"
+          >
+            <a class="dropdown-item" href="/"
+              >DÜZENLE</a
+            >
+            <a class="dropdown-item" href="/">SİL</a>
+          </div>
+        </div>
         <h1>VIDEO ADI</h1>
         <div class="video-box"></div>
         <p>

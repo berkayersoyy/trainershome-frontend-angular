@@ -9,7 +9,6 @@ import { AdminPanelVideoAddVideoModalComponent } from '../admin-panel-video-add-
 })
 export class AdminPanelVideoComponent implements OnInit {
   constructor(
-    private modalService: NgbModal,
   ) {}
 
   ngOnInit(): void {}
