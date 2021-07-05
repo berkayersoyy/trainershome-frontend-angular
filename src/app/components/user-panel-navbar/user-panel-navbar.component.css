@@ -1,0 +1,35 @@
+.stable{
+    height: 90px !important;
+    transition: 0.2s ease;
+  }
+  .navbar-toggler{
+    border: none !important;
+  }
+  li a{
+    font-size: 12px;
+    font-weight: 700;
+    color: black !important;
+    font-family: 'Montserrat',sans-serif;
+  }
+  li a:hover{
+    color: rgba(0, 0, 0, 0.6) !important;
+    transition: 0.3s ease;
+  }
+  .bg-light{
+    background-color: white !important;
+  }
+  .nav-item{
+    padding: 12px 15px;
+    text-transform: uppercase;
+  }
+  .navbar-brand{
+    color: black;
+  }
+  @media screen and (max-device-width:991px) {
+    .sticky{
+      height: auto;
+    }
+    .stable{
+      height: auto;
+    }
+  }
